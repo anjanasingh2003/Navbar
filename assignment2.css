@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+   
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+#one{
+    color: orangered;
+}
+
+div{ 
+   padding: 7px ;
+   font-size: small;
+   display: inline-block;
+}
+#three{
+    color: white;
+    background: orangered;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+#two{
+    display: flex;
+    gap: 4rem;
+    color: white;
+    
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
